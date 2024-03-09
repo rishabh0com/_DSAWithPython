@@ -13,4 +13,4 @@ def multiplyOrSum(n1, n2):
 
 
 print("for 20 , 30 : ", multiplyOrSum(20, 30))  # it will return multiply
-print("for 5, 9 : ", multiplyOrSum(1000, 2))  # it will return sum
+print("for 1000, 2 : ", multiplyOrSum(1000, 2))  # it will return sum
