@@ -16,3 +16,27 @@ def problem_1(num_of_row):
 # function invoked problem_1:
 problem_1(5)
 
+"""
+Problem_2 : print following pattern.
+
+1
+2 2
+3 3 3
+4 4 4 4 
+"""
+
+print("problem 2 :")
+
+
+def problem_2(num_of_row):
+    pattern = ""
+    for row in range(1, num_of_row + 1):
+        for col in range(1, row + 1):
+            pattern += str(row) + " "
+        print(pattern + "\n")
+        pattern = ""
+
+
+# function invoked problem_2 :
+problem_2(5);
+
