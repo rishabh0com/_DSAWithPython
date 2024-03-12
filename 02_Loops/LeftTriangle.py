@@ -40,3 +40,30 @@ def problem_2(num_of_row):
 # function invoked problem_2 :
 problem_2(5);
 
+"""
+Problem_3 : print following pattern.
+
+1
+2  3
+4  5  6
+7  8  9  10
+11 12 13 14 15
+"""
+
+print("problem 3 :")
+
+
+def problem_3(num_of_row):
+    pattern = 1
+    for row in range(0, num_of_row):
+        for col in range(1, row + 2):
+            print(
+                pattern,
+                end=" ",
+            )
+            pattern += 1
+        print("\n")
+
+
+# function invoked problem 3 :
+problem_3(5)
