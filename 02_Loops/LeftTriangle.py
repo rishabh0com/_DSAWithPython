@@ -67,3 +67,26 @@ def problem_3(num_of_row):
 
 # function invoked problem 3 :
 problem_3(5)
+
+'''
+Problem_3 : print following pattern :
+*
+*  *
+*    *
+*      *
+*  *  *  *
+'''
+
+def problem_4(num_of_row):
+    print("problem_4 : ")
+    for row in range(0,num_of_row):
+        for col in range(0,row):
+            if col == 0 or col == row - 1 or row == num_of_row -1:
+               print("*  ",end=" ");
+            else:
+                print("   ", end=" ")
+            
+        print("\n");
+        
+# function invoked
+problem_4(6)
