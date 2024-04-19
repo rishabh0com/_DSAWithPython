@@ -2,6 +2,10 @@
 """
 Number of subarray of len K = formula : N - K + 1
 it will give the answer how many subArray are possible of len K in Array
+
+Time Complexity :
+N-K+1 * K = N*K + K^2 + 1
+O(N*K)
 """
 
 
