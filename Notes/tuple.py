@@ -40,3 +40,16 @@ thisList[1] = "kiwi";
 thisTuple = tuple(thisList);
 print("thisTuple #", thisTuple);
 
+# You can also concatenate two or more tuples to create a new tuple.
+tuple1 = ("a", "b", "c");
+tuple2 = (1, 2, 3);
+newTuple = tuple1 + tuple2;
+print("newTuple #", newTuple);
+
+# Create a new tuple with the value "orange", and add that tuple:
+
+thistuple = ("apple", "banana", "cherry")
+y = ("orange",)
+thistuple += y
+
+print(thistuple)
