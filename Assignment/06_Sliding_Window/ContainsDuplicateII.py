@@ -19,7 +19,7 @@ Output: false
 nums = [1, 2, 3, 1, 2, 3]
 
 
-def remove_duplicates_II(nums,k):
+def contain_duplicates_II(nums,k):
     dictt = {}
     for i in range(len(nums)):
         # print(dictt)
@@ -29,5 +29,5 @@ def remove_duplicates_II(nums,k):
             dictt[nums[i]] = i
     return False
 
-res = remove_duplicates_II(nums,2)
+res = contain_duplicates_II(nums,2)
 print(res)
