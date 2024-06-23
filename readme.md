@@ -34,3 +34,6 @@ In this repository, you'll find a collection of Python code snippets, examples, 
 
 - Feel free to customize it further based on your preferences or specific details about your DSAWithPython repository.
 
+## git commands
+- reset last commit -> ` git reset --soft HEAD~1 `
+- unstage all tracked file -> ` git restore --staged . `
