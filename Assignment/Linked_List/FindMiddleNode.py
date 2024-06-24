@@ -4,6 +4,20 @@ class Node:
         self.next = None;
 
 
+def findMiddleNode(head):
+    if not head:
+        return None;
+
+    fast = head;
+    slow = head;
+
+    while fast and fast.next:
+        slow = slow.next;
+        fast = fast.next.next;
+
+    print(f"middle Node : |{slow.data}| : ",end="");
+    printLinkedList(head);
+   
 
 def createLinkedList(values):
     if not values:
