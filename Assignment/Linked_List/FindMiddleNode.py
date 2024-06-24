@@ -3,6 +3,16 @@ class Node:
         self.data = data;
         self.next = None;
 
+def printLinkedList(head):
+    if not head:
+        return None;
+    
+    curr = head;
+    print("head-- ",end="")
+    while(curr):
+        print(curr.data,"-> ",end="");
+        curr = curr.next;
+    print("null","\n");
 
 def findMiddleNode(head):
     if not head:
