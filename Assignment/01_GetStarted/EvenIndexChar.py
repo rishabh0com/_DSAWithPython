@@ -11,4 +11,3 @@ def evenIndexCharacter(str):
 
 # take user input :
 evenIndexCharacter(input("Enter string : "));
-
