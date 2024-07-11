@@ -2,6 +2,10 @@
 
 Welcome to the DSAWithPython repository! 🚀
 
+<div>
+   <img src="https://media.geeksforgeeks.org/wp-content/uploads/20211118125839/PythonDataStructuresandAlgorithms.png">
+</div>
+
 ## Introduction
 
 This repository is your go-to destination for mastering Data Structures and Algorithms (DSA) using Python. Whether you're a beginner exploring the world of programming or an experienced developer looking to sharpen your skills, DSAWithPython is the perfect place to dive deep into the fundamentals of DSA.
